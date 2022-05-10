@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 11,
+			"revision" : 7,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -39,6 +39,41 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-21",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1044.0, 356.0, 90.0, 22.0 ],
+					"text" : "print oscReturn"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-18",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 877.0, 380.0, 150.0, 33.0 ],
+					"presentation_linecount" : 2,
+					"text" : "Raw osc return for latency measurement"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-17",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 877.0, 356.0, 102.0, 22.0 ],
+					"text" : "s rawOscReceive"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"bgcolor" : [ 0.803922, 0.898039, 0.909804, 1.0 ],
 					"fontface" : 1,
@@ -190,7 +225,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 879.0, 389.618906438350677, 150.0, 20.0 ],
+					"patching_rect" : [ 753.260869026184082, 420.0, 150.0, 20.0 ],
 					"text" : "redirects data to unreal"
 				}
 
@@ -792,7 +827,15 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-812", 0 ],
+					"destination" : [ "obj-17", 0 ],
+					"order" : 1,
+					"source" : [ "obj-88", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-21", 0 ],
 					"order" : 0,
 					"source" : [ "obj-88", 0 ]
 				}
@@ -800,8 +843,16 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-812", 0 ],
+					"order" : 2,
+					"source" : [ "obj-88", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-9", 1 ],
-					"order" : 1,
+					"order" : 3,
 					"source" : [ "obj-88", 0 ]
 				}
 
