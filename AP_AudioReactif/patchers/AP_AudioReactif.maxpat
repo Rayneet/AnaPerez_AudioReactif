@@ -1050,6 +1050,13 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "96k_AnaPerez_phoneRec.wav",
+				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/AnaPerez_AudioReactif/AP_AudioReactif/media",
+				"patcherrelativepath" : "../media",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "p_AudioAnalyserV4.maxpat",
 				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/AnaPerez_AudioReactif/AP_AudioReactif/patchers",
 				"patcherrelativepath" : ".",

@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 11,
+			"revision" : 7,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -45,7 +45,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 423.0, 171.0, 53.0, 22.0 ],
+					"patching_rect" : [ 390.0, 171.0, 53.0, 22.0 ],
 					"text" : "zl.filter 0"
 				}
 
@@ -57,7 +57,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 423.0, 95.0, 60.0, 22.0 ],
+					"patching_rect" : [ 390.0, 95.0, 60.0, 22.0 ],
 					"text" : "zl.change"
 				}
 
@@ -69,7 +69,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 423.0, 138.0, 245.0, 22.0 ],
+					"patching_rect" : [ 390.0, 138.0, 245.0, 22.0 ],
 					"text" : "OSC-route /replay/playSet /replay/masterVol"
 				}
 
@@ -81,7 +81,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 423.0, 47.0, 121.0, 22.0 ],
+					"patching_rect" : [ 390.0, 47.0, 121.0, 22.0 ],
 					"text" : "r fromRemoteControl"
 				}
 
@@ -104,13 +104,13 @@
 					"clipheight" : 56.0,
 					"data" : 					{
 						"clips" : [ 							{
-								"absolutepath" : "Ethiopic_Moonlight.wav",
-								"filename" : "Ethiopic_Moonlight.wav",
+								"absolutepath" : "/Users/nils/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/AnaPerez_AudioReactif/AP_AudioReactif/media/96k_AnaPerez_phoneRec.wav",
+								"filename" : "96k_AnaPerez_phoneRec.wav",
 								"filekind" : "audiofile",
-								"id" : "u526005248",
-								"loop" : 1,
+								"id" : "u532001576",
+								"loop" : 0,
 								"content_state" : 								{
-									"loop" : 1
+
 								}
 
 							}
@@ -552,7 +552,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 92.0, 0.0, 332.0, 20.0 ],
+					"patching_rect" : [ 59.0, 0.0, 332.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 2.646620035171509, 3.448812305927277, 363.948051452636719, 20.0 ],
 					"text" : "Audio Input Management",
