@@ -1050,20 +1050,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "AnaPerez_phoneRec.wav",
-				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign",
-				"patcherrelativepath" : "../../..",
-				"type" : "WAVE",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "FlamencoDanse_provisoire.wav",
-				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign",
-				"patcherrelativepath" : "../../..",
-				"type" : "WAVE",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "p_AudioAnalyserV4.maxpat",
 				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/AnaPerez_AudioReactif/AP_AudioReactif/patchers",
 				"patcherrelativepath" : ".",
