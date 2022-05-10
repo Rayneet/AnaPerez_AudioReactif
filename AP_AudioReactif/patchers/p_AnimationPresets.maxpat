@@ -112,18 +112,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-35",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "float", "" ],
-					"patching_rect" : [ 687.0, 506.0, 35.0, 22.0 ],
-					"text" : "timer"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-27",
 					"linecount" : 2,
 					"maxclass" : "message",
