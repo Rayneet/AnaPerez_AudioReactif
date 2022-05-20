@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 1,
-			"revision" : 7,
+			"minor" : 3,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 105.0, 1187.0, 911.0 ],
+		"rect" : [ 287.0, 105.0, 1303.0, 911.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,45 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-8",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 502.0, 489.0, 58.0, 22.0 ],
+					"text" : "loadbang"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-5",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 502.0, 527.0, 32.0, 22.0 ],
+					"text" : "145."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-3",
+					"maxclass" : "gain~",
+					"multichannelvariant" : 1,
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "multichannelsignal", "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 607.0, 576.0, 22.0, 140.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 156.661130547523499, 140.771242082118988, 56.822429776191711, 185.177570223808289 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-2",
 					"maxclass" : "newobj",
@@ -101,13 +140,24 @@
 , 			{
 				"box" : 				{
 					"basictuning" : 0,
-					"clipheight" : 56.0,
+					"clipheight" : 108.0,
 					"data" : 					{
 						"clips" : [ 							{
-								"absolutepath" : "/Users/nils/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/AnaPerez_AudioReactif/AP_AudioReactif/media/96k_AnaPerez_phoneRec.wav",
-								"filename" : "96k_AnaPerez_phoneRec.wav",
+								"absolutepath" : "AP_Test_beta_ground_Dip.wav",
+								"filename" : "AP_Test_beta_ground_Dip.wav",
 								"filekind" : "audiofile",
-								"id" : "u532001576",
+								"id" : "u937001278",
+								"loop" : 1,
+								"content_state" : 								{
+									"loop" : 1
+								}
+
+							}
+, 							{
+								"absolutepath" : "AP_Test_beta_rolling_Dip.wav",
+								"filename" : "AP_Test_beta_rolling_Dip.wav",
+								"filekind" : "audiofile",
+								"id" : "u650001023",
 								"loop" : 0,
 								"content_state" : 								{
 
@@ -128,10 +178,10 @@
 					"originaltempo" : 0,
 					"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 689.89849442243576, 203.227270722389221, 424.0, 57.0 ],
+					"patching_rect" : [ 689.89849442243576, 203.227270722389221, 591.0, 218.0 ],
 					"pitchcorrection" : 0,
 					"presentation" : 1,
-					"presentation_rect" : [ 216.594671487808228, 81.948812305927277, 150.0, 57.0 ],
+					"presentation_rect" : [ 216.594671487808228, 81.948812305927277, 442.0, 244.0 ],
 					"quality" : 0,
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
@@ -198,7 +248,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 903.994943451731615, 156.0, 95.0, 33.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 246.209531664848328, 54.755631506443024, 120.3851398229599, 20.0 ],
+					"presentation_rect" : [ 246.209531664848328, 54.755631506443024, 412.3851398229599, 20.0 ],
 					"text" : "Master Placeholder"
 				}
 
@@ -332,7 +382,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 715.113786458969116, 23.0, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 216.594671487808228, 27.755631506443024, 150.0, 20.0 ],
+					"presentation_rect" : [ 216.594671487808228, 27.755631506443024, 442.0, 20.0 ],
 					"text" : "Audio From File"
 				}
 
@@ -554,7 +604,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 59.0, 0.0, 332.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2.646620035171509, 3.448812305927277, 363.948051452636719, 20.0 ],
+					"presentation_rect" : [ 2.646620035171509, 3.448812305927277, 655.948051452636719, 20.0 ],
 					"text" : "Audio Input Management",
 					"textjustification" : 1
 				}
@@ -627,6 +677,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-29", 0 ],
+					"source" : [ "obj-3", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-109", 0 ],
 					"order" : 0,
 					"source" : [ "obj-35", 0 ]
@@ -687,6 +744,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-3", 0 ],
+					"source" : [ "obj-5", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-13", 1 ],
 					"source" : [ "obj-50", 0 ]
 				}
@@ -701,7 +765,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-29", 0 ],
+					"destination" : [ "obj-3", 0 ],
 					"source" : [ "obj-54", 0 ]
 				}
 
@@ -811,6 +875,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
 					"source" : [ "obj-75", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-5", 0 ],
+					"source" : [ "obj-8", 0 ]
 				}
 
 			}

@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 1,
-			"revision" : 7,
+			"minor" : 3,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 712.0, 173.0, 934.0, 937.0 ],
+		"rect" : [ 34.0, 79.0, 1612.0, 937.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -51,18 +51,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-12",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 612.499994158744812, 812.0, 58.0, 22.0 ],
-					"text" : "loadbang"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-15",
 					"linecount" : 2,
 					"maxclass" : "message",
@@ -84,42 +72,6 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 2173.0, 610.0, 58.0, 35.0 ],
 					"text" : ";\rdsp open"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-3",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 2277.0, 566.0, 67.0, 22.0 ],
-					"text" : "delay 2000"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-2",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 2173.0, 566.0, 67.0, 22.0 ],
-					"text" : "delay 1000"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-1",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 2173.0, 527.0, 58.0, 22.0 ],
-					"text" : "loadbang"
 				}
 
 			}
@@ -181,6 +133,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-6",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "p_setOscAddresses.maxpat",
 					"numinlets" : 0,
@@ -202,6 +155,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-5",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "p_localProtoSend.maxpat",
 					"numinlets" : 0,
@@ -223,6 +177,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-4",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "p_AnimationPresets.maxpat",
 					"numinlets" : 0,
@@ -230,7 +185,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 853.521137952804565, 730.755095481872559, 128.0, 128.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1307.68123733997345, 149.23769199848175, 488.904128522311339, 447.455473393201828 ],
+					"presentation_rect" : [ 697.384160399436951, 516.587539911270142, 488.904128522311339, 447.455473393201828 ],
 					"viewvisibility" : 1
 				}
 
@@ -244,6 +199,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-175",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "p_AudioAnalyserV4.maxpat",
 					"numinlets" : 0,
@@ -251,7 +207,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 1508.368419170379639, 52.0, 1097.000005006790161, 384.571446895599365 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1800.585365862284789, -10.0, 1253.753164529800188, 1135.097653388977051 ],
+					"presentation_rect" : [ 1973.659437031184325, -11.0, 1253.753164529800188, 1135.097653388977051 ],
 					"viewvisibility" : 1
 				}
 
@@ -277,7 +233,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 612.499994158744812, 859.223698377609253, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1679.910369515419006, 0.0, 109.538460850715637, 109.538460850715637 ]
+					"presentation_rect" : [ 1102.163401007652283, 308.699231147766113, 109.538460850715637, 109.538460850715637 ]
 				}
 
 			}
@@ -290,6 +246,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-173",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "p_AudioInputManager.maxpat",
 					"numinlets" : 0,
@@ -297,7 +254,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 853.521137952804565, 0.0, 514.249074935913086, 649.886577963829041 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1307.68123733997345, 0.0, 370.229132175445557, 147.23769199848175 ],
+					"presentation_rect" : [ 1307.68123733997345, 4.170101329136742, 663.821719884872437, 418.23769199848175 ],
 					"viewvisibility" : 1
 				}
 
@@ -311,6 +268,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-166",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "p_OscMasterClock.maxpat",
 					"numinlets" : 0,
@@ -332,6 +290,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-149",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "p_OscRemoteControl.maxpat",
 					"numinlets" : 0,
@@ -353,6 +312,7 @@
 					"enablevscroll" : 0,
 					"id" : "obj-129",
 					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "p_OscOutputs.maxpat",
 					"numinlets" : 0,
@@ -478,7 +438,7 @@
 					"patching_rect" : [ 612.499994158744812, 771.109062969684601, 150.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 1679.910369515419006, 110.644287973642349, 109.538460850715637, 33.0 ],
+					"presentation_rect" : [ 1102.163401007652283, 419.343519121408463, 109.538460850715637, 33.0 ],
 					"text" : "Is Perf. Computer ?",
 					"textjustification" : 1
 				}
@@ -766,22 +726,6 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
-					"destination" : [ "obj-2", 0 ],
-					"order" : 1,
-					"source" : [ "obj-1", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-3", 0 ],
-					"order" : 0,
-					"source" : [ "obj-1", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-11", 0 ],
 					"source" : [ "obj-10", 0 ]
 				}
@@ -833,13 +777,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-7", 0 ],
 					"source" : [ "obj-11", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-915", 0 ],
-					"source" : [ "obj-12", 0 ]
 				}
 
 			}
@@ -922,13 +859,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-14", 0 ],
-					"source" : [ "obj-2", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-156", 0 ],
 					"source" : [ "obj-21", 0 ]
 				}
@@ -945,13 +875,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-147", 0 ],
 					"source" : [ "obj-27", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-15", 0 ],
-					"source" : [ "obj-3", 0 ]
 				}
 
 			}
@@ -1022,21 +945,39 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "p_OscOutputs.maxpat",
+				"name" : "AP_Test_beta_ground_Dip.wav",
+				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/AnaPerez_AudioReactif/AP_AudioReactif/media",
+				"patcherrelativepath" : "../media",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "AP_Test_beta_rolling_Dip.wav",
+				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/AnaPerez_AudioReactif/AP_AudioReactif/media",
+				"patcherrelativepath" : "../media",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "OSC-route.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "audioAnalysers~.maxpat",
 				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/AnaPerez_AudioReactif/AP_AudioReactif/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "p_OscRemoteControl.maxpat",
+				"name" : "p_AnimationPresets.maxpat",
 				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/AnaPerez_AudioReactif/AP_AudioReactif/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "p_OscMasterClock.maxpat",
+				"name" : "p_AudioAnalyserV4.maxpat",
 				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/AnaPerez_AudioReactif/AP_AudioReactif/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
@@ -1050,28 +991,21 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "96k_AnaPerez_phoneRec.wav",
-				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/AnaPerez_AudioReactif/AP_AudioReactif/media",
-				"patcherrelativepath" : "../media",
-				"type" : "WAVE",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "p_AudioAnalyserV4.maxpat",
+				"name" : "p_OscMasterClock.maxpat",
 				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/AnaPerez_AudioReactif/AP_AudioReactif/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "audioAnalysers~.maxpat",
+				"name" : "p_OscOutputs.maxpat",
 				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/AnaPerez_AudioReactif/AP_AudioReactif/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "p_AnimationPresets.maxpat",
+				"name" : "p_OscRemoteControl.maxpat",
 				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/AnaPerez_AudioReactif/AP_AudioReactif/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
@@ -1092,11 +1026,11 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "OSC-route.mxo",
+				"name" : "zsa.bark~.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "zsa.bark~.mxo",
+				"name" : "zsa.centroid~.mxo",
 				"type" : "iLaX"
 			}
 , 			{
