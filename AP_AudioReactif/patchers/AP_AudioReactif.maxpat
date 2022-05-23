@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 79.0, 1612.0, 937.0 ],
+		"rect" : [ 34.0, 79.0, 1220.0, 937.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,29 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"bgmode" : 0,
+					"border" : 1,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-1",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "p_AudioAnalyserV4_guitar.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"offset" : [ 0.0, 0.0 ],
+					"patching_rect" : [ 1969.444538354873657, 1208.333390951156616, 128.0, 128.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 1973.502957224845886, 1152.777832746505737, 1253.753164529800415, 1169.666716337203979 ],
+					"varname" : "p_AudioAnalyserV4_guitar",
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-13",
 					"maxclass" : "newobj",
@@ -207,7 +230,8 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 1508.368419170379639, 52.0, 1097.000005006790161, 384.571446895599365 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1973.659437031184325, -11.0, 1253.753164529800188, 1135.097653388977051 ],
+					"presentation_rect" : [ 1973.502957224845886, 0.0, 1253.753164529800188, 1135.097653388977051 ],
+					"varname" : "p_AudioAnalyserV4",
 					"viewvisibility" : 1
 				}
 
@@ -254,7 +278,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 853.521137952804565, 0.0, 514.249074935913086, 649.886577963829041 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1307.68123733997345, 4.170101329136742, 663.821719884872437, 418.23769199848175 ],
+					"presentation_rect" : [ 1307.68123733997345, 4.170101329136742, 663.821719884872437, 764.23769199848175 ],
 					"viewvisibility" : 1
 				}
 
@@ -959,8 +983,64 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "Guitar_phase1.wav",
+				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/AnaPerez_AudioReactif/AP_AudioReactif/media",
+				"patcherrelativepath" : "../media",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Guitar_phase1_01.wav",
+				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/AnaPerez_AudioReactif/AP_AudioReactif/media",
+				"patcherrelativepath" : "../media",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Guitar_phase2_debut.wav",
+				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/AnaPerez_AudioReactif/AP_AudioReactif/media",
+				"patcherrelativepath" : "../media",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Guitar_phase2_milieu.wav",
+				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/AnaPerez_AudioReactif/AP_AudioReactif/media",
+				"patcherrelativepath" : "../media",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Guitar_phase2_milieu_arpeges.wav",
+				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/AnaPerez_AudioReactif/AP_AudioReactif/media",
+				"patcherrelativepath" : "../media",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Guitar_phase2_milieu_nappe.wav",
+				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/AnaPerez_AudioReactif/AP_AudioReactif/media",
+				"patcherrelativepath" : "../media",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Guitar_phase3_nappe.wav",
+				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/AnaPerez_AudioReactif/AP_AudioReactif/media",
+				"patcherrelativepath" : "../media",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "OSC-route.mxo",
 				"type" : "iLaX"
+			}
+, 			{
+				"name" : "audioAnalysers_instr~.maxpat",
+				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/AnaPerez_AudioReactif/AP_AudioReactif/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
 			}
 , 			{
 				"name" : "audioAnalysers~.maxpat",
@@ -978,6 +1058,13 @@
 			}
 , 			{
 				"name" : "p_AudioAnalyserV4.maxpat",
+				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/AnaPerez_AudioReactif/AP_AudioReactif/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "p_AudioAnalyserV4_guitar.maxpat",
 				"bootpath" : "~/Documents/Master_ICS/Stage_JEUDI8/OffEvents/SoundDesign/AnaPerez_AudioReactif/AP_AudioReactif/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
