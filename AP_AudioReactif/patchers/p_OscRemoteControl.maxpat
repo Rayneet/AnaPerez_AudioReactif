@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 1,
-			"revision" : 7,
+			"minor" : 3,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -56,8 +56,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 877.0, 380.0, 150.0, 33.0 ],
-					"presentation_linecount" : 2,
+					"patching_rect" : [ 962.0, 380.235927760601044, 151.0, 33.0 ],
 					"text" : "Raw osc return for latency measurement"
 				}
 
@@ -68,7 +67,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 877.0, 356.0, 102.0, 22.0 ],
+					"patching_rect" : [ 962.0, 356.235927760601044, 102.0, 22.0 ],
 					"text" : "s rawOscReceive"
 				}
 
@@ -168,7 +167,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 540.260869026184082, 396.0, 32.0, 22.0 ],
+					"patching_rect" : [ 540.260869026184082, 375.0, 32.0, 22.0 ],
 					"text" : "gate"
 				}
 
@@ -190,7 +189,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 694.260869026184082, 444.397229194641113, 123.0, 22.0 ],
+					"patching_rect" : [ 694.260869026184082, 475.397229194641113, 123.0, 22.0 ],
 					"text" : "s fromRemoteControl"
 				}
 
@@ -269,7 +268,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 540.260869026184082, 444.397229194641113, 116.0, 22.0 ],
+					"patching_rect" : [ 540.260869026184082, 405.397229194641113, 116.0, 22.0 ],
 					"text" : "print RemoteControl"
 				}
 
@@ -503,7 +502,7 @@
 					"patching_rect" : [ 78.0, 95.0, 147.0, 36.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ -0.020611047744751, 129.52475917339325, 152.0, 43.0 ],
-					"text" : "192.168.50.243"
+					"text" : "192.168.50.15"
 				}
 
 			}
@@ -516,7 +515,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 0.0, 200.0, 96.0, 35.0 ],
-					"text" : "host 192.168.50.243"
+					"text" : "host 192.168.50.15"
 				}
 
 			}
@@ -852,6 +851,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-9", 1 ],
+					"midpoints" : [ 703.760869026184082, 342.0, 576.0, 342.0, 576.0, 369.0, 562.760869026184082, 369.0 ],
 					"order" : 3,
 					"source" : [ "obj-88", 0 ]
 				}
