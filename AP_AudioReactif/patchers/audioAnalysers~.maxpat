@@ -142,7 +142,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 297.600000000000023, 585.283302962779999, 50.0, 35.0 ],
-					"text" : "1237.601785"
+					"text" : "1037.695271"
 				}
 
 			}
@@ -401,7 +401,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 838.587096762657211, 463.283302962779999, 44.0, 35.0 ],
-					"text" : "0.000778"
+					"text" : "0.0001"
 				}
 
 			}
@@ -425,7 +425,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 820.772948920726776, 684.506404161453247, 129.807694971561432, 22.0 ],
-					"text" : "0.000155"
+					"text" : "0."
 				}
 
 			}
@@ -1018,7 +1018,21 @@
 				}
 
 			}
- ]
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "zsa.bark~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "zsa.centroid~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "zsa.slope~.mxo",
+				"type" : "iLaX"
+			}
+ ],
+		"autosave" : 0
 	}
 
 }
